@@ -1,6 +1,6 @@
 # data-512-a1
-Repo for DATA_512 Assignment 1
 
+#### Repo for DATA_512 Assignment 1
 This file describes the requirements and steps needed to produce a time series visualization of Engish Wikipedia traffic, split by mobile and desktop sites during January 2008 to September 2017, using Jupyter notebook and the Wikimedia Rest API. 
 
 
@@ -31,11 +31,19 @@ The Wikimedia Rest API has two endpoints for Wikipedia traffic:
 
 The __[data file](https://github.com/mykebrowne/data-512-a1/blob/master/en-wikipedia_traffic_200801_201709.csv)__ created as part of this project has the following structure: 
 
+- year (integer) - the year to which the traffic relates  {2008, 2009, ... 2017}. 
+- month (integer) - the month to which the traffic relates  {1, 2, ... 12}. 
+- pagecount_all_views - the total number of views (English desktop and mobile sites) as defined by the Pagecounts API.
+- pagecount_desktop_views - the total number of views for the English desktop site as defined by the Pagecounts API. 
+- pagecount_mobile_views - the total number of views for the English mobile site as defined by the Pagecounts API. 
+- pageview_all_views - the total number of views (English desktop and mobile sites) as defined by the Pageviews API.
+- pageview_desktop_views - the total number of views for the English desktop site as defined by the Pageviews API. 
+- pageview_mobile_views - the total number of views for the English mobile site as defined by the Pageviews API. 
 
-
+Please note that views from the Pagecounts API includes views from non-human agents (e.g. spiders and webcrawlers).  Views from the Pageviews API has been filtered to exclude views from non-human agents.  
 
 
 #### Steps to reproduce analysis 
 
-This Jupyter notebook contains the steps and code needed to reproduce this analysis 
+This Jupyter notebook contains the steps and code needed to reproduce this analysis.  
 
