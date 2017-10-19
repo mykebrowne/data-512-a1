@@ -1,42 +1,35 @@
 # data-512-a1
 Repo for DATA_512 Assignment 1
 
-This file describes the requirements and steps needed to produce a time series visualization of Engish Wikipedia traffic during January 2008 to September 2017. 
-
-#### Goal 
-
+This file describes the requirements and steps needed to produce a time series visualization of Engish Wikipedia traffic, split by mobile and desktop sites during January 2008 to September 2017, using Jupyter notebook and the Wikimedia Rest API. 
 
 
 #### Software requirements 
 
 __[Jupyter notebook](http://jupyter.org/about.html)__ running an R kernel.  
 This can be done locally by __[installing](http://jupyter.org/install.html)__ Juypter notebook or, alternatively, on the Jupyter server. 
-If done locally, Python is a requirement (Python 3.3 or greater, or Python 2.7) for the installation. 
-
-
-
-
+If done locally, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing Jupyter. 
 
 
 #### Licensing 
 
-Jupyter/jupyter is licensed under the __[BSD 3-clause "New" or "Revised" License](https://github.com/jupyter/jupyter/blob/master/LICENSE)__
-
+Jupyter/jupyter is licensed under the __[BSD 3-clause "New" or "Revised" License](https://github.com/jupyter/jupyter/blob/master/LICENSE)__. 
 R as a package is licensed under GPL-2 | GPL-3. 
-
 Python 2.2 and above are licensed as per https://docs.python.org/3/license.html
-
-
-
-
+Content accessed through the __[Wikimedia Rest API](https://en.wikipedia.org/api/rest_v1/)__ is licensed under the CC-BY-SA 3.0 and GFDL licenses. 
+Use of the Wikimedia Rest API is under the __[Wikimedia Terms of Use](https://wikimediafoundation.org/wiki/Terms_of_Use/en)__.
 
 
 #### API documentation
 
+The Wikimedia Rest API has two endpoints for Wikipedia traffic:  
+
+The __[Pagecounts API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts)__ which provides access to desktop and mobile traffic data from January 2008 to July 2016. 
+The __[Pageviews API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)__ which provides acesss to desktop, mobile web and mobile app traffic data from July 2015 to present. 
 
 
-#### R packages 
+#### Data file 
+
+The 
 
 
-
-## 
