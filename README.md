@@ -29,6 +29,13 @@ The Wikimedia Rest API has two endpoints for Wikipedia traffic:
 
 #### Data file 
 
-The 
+The __[data file](https://github.com/mykebrowne/data-512-a1/blob/master/en-wikipedia_traffic_200801_201709.csv)__ created as part of this project has the following structure: 
 
+
+
+
+
+#### Steps to reproduce analysis 
+
+This Jupyter notebook contains the steps and code needed to reproduce this analysis 
 
