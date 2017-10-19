@@ -1,7 +1,7 @@
 # data-512-a1
 
 #### Repo for DATA_512 Assignment 1
-This file describes the requirements and steps needed to produce a time series visualization of Engish Wikipedia traffic, split by mobile and desktop sites during January 2008 to September 2017, using Jupyter notebook and the Wikimedia Rest API. 
+This file describes the requirements and steps needed to produce a __[time series visualization](https://github.com/mykebrowne/data-512-a1/blob/master/wikipedia_traffic.png)__ of Engish Wikipedia traffic, split by mobile and desktop sites during January 2008 to September 2017, using Jupyter notebook and the Wikimedia Rest API. 
 
 
 #### Software requirements 
