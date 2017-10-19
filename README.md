@@ -45,5 +45,5 @@ Please note that views from the Pagecounts API includes views from non-human age
 
 #### Steps to reproduce analysis 
 
-This Jupyter notebook contains the steps and code needed to reproduce this analysis.  
+This __[Jupyter notebook](https://github.com/mykebrowne/data-512-a1/blob/master/hcds-a1-data-curation.ipynb)__ contains the steps and code needed to reproduce this analysis.  
 
